@@ -1,0 +1,30 @@
+_id: req_3aac091c75964fd4be3f4781075d544d
+type: Request
+parentId: wrk_c03c6b74c85b4a5fa4828b4542ed1252
+modified: 1690487032278
+created: 1690487032278
+url: "{{ _.base_url }}/games"
+name: Create a new game where the backend will save the Unix time of the request
+  as the initial time of the game.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "userId": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1690487032278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

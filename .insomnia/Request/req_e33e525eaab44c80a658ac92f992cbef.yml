@@ -1,0 +1,21 @@
+_id: req_e33e525eaab44c80a658ac92f992cbef
+type: Request
+parentId: wrk_c03c6b74c85b4a5fa4828b4542ed1252
+modified: 1690487032280
+created: 1690487032280
+url: "{{ _.base_url }}/games/{{ _.gameId }}"
+name: Get a game by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1690487032280
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_d77c4b2b853b4f4088b0b0ac75f6c50e
+type: Request
+parentId: wrk_c03c6b74c85b4a5fa4828b4542ed1252
+modified: 1690487032281
+created: 1690487032281
+url: "{{ _.base_url }}/games/{{ _.gameId }}"
+name: Update a game where the backend should save the guessed location input
+  from the user as the end location of the game round.
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "guessedLocation": {
+        "latitude": 0,
+        "longitude": 0
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1690487032281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

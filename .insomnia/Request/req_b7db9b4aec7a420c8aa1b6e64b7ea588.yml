@@ -1,0 +1,21 @@
+_id: req_b7db9b4aec7a420c8aa1b6e64b7ea588
+type: Request
+parentId: wrk_c03c6b74c85b4a5fa4828b4542ed1252
+modified: 1690487032270
+created: 1690487032270
+url: "{{ _.base_url }}/users/{{ _.userId }}"
+name: Get a user by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1690487032270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_ccd341a1f6a04511a3c1f03a683ceadf
+type: Request
+parentId: wrk_c03c6b74c85b4a5fa4828b4542ed1252
+modified: 1690487032276
+created: 1690487032276
+url: "{{ _.base_url }}/games"
+name: Get all games
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1690487032276
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

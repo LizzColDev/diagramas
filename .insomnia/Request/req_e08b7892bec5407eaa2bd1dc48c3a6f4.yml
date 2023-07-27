@@ -1,0 +1,21 @@
+_id: req_e08b7892bec5407eaa2bd1dc48c3a6f4
+type: Request
+parentId: wrk_c03c6b74c85b4a5fa4828b4542ed1252
+modified: 1690487032289
+created: 1690487032289
+url: "{{ _.base_url }}/games/{{ _.gameId }}"
+name: Delete a game
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1690487032289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_1e9844d8283d406db477077e00b0830b
+type: Request
+parentId: wrk_c03c6b74c85b4a5fa4828b4542ed1252
+modified: 1690487032272
+created: 1690487032272
+url: "{{ _.base_url }}/users/{{ _.userId }}"
+name: Update a user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1690487032272
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
